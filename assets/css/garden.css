@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: #DAEDE2;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background: #7AC3D2;
+    height: 3250px;
+    width: 90%;
+    margin: 5% auto;
+    padding: 5% 0 0 5%;
+    position: relative
+}
+
+h1 {
+    display: block;
+    text-transform: uppercase;
+    background: #EA2E49;
+    padding: 10px;
+    color: white;
+    width: 25%;
+    text-align: center;
+    font-weight: 100
+}
+
+section#black {
+    background: rgba(51, 55, 69, .9);
+    width: 30%;
+    height: 3450px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0%;
+    z-index: 2
+}
+
+header {
+    background: rgba(246, 247, 146, .9);
+    display: block;
+    width: 30%;
+    height: 1250px;
+    position: absolute;
+    right: 0;
+    top: 3%;
+    z-index: 3;
+    padding: 46px;
+}
+
+h2 {
+    width: 65%;
+    font-size: 128px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    font-weight: 900
+}
+
+span {
+    border-bottom: 15px dotted white
+}
+
+article {
+    width: 65%;
+    color: white;
+    margin-top: 2%
+}
+
+p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    padding: 9px 0
+}
+
+article hr {
+    width: 90%;
+    margin: 2% 0;
+    border: 0.2mm solid red;
+}
+
+article p a {
+    color: white;
+    text-decoration: underline grey
+}
+
+header ul {
+    padding: 10px 0 40px;
+    font-size: 20px
+}
+
+header ul li {
+    color: rgba(0, 0, 0, 0.4);
+    list-style: none;
+    padding: 0 0 16px;
+}
+
+header ul li a {
+    color: #333;
+    margin-bottom: 1px;
+    text-decoration: underline grey;
+}
+
+h3 {
+    font-size: 39px;
+    padding: 20px 0px 10px;
+    font-weight: 100
+}
+
+section.preamble {
+    background: white;
+    width: 70%;
+    height: 13%;
+    position: absolute;
+    z-index: 2;
+    margin-left: -11%;
+    margin-top: 6%
+}
+
+section.preamble {
+    padding: 26px 26px 26px 10%
+}
+
+section article.whatabout {
+    width: 40%;
+    min-height: 650px;
+    float: left;
+    margin-top: 50%;
+    position: absolute;
+    z-index: 2;
+    padding: 41px
+}
+
+Section article.part {
+    background: rgba(234, 46, 73, 0.9);
+    width: 45%;
+    height: 620px;
+    float: right;
+    margin-top: 53%;
+    margin-right: 10%;
+    position: relative;
+    z-index: 3;
+    padding: 41px
+}
